@@ -26,3 +26,5 @@ spec:
             periodSeconds: 10
           securityContext:
             privileged: false
+            runAsNonRoot: true
+            readOnlyRootFilesystem: true
